@@ -47,7 +47,7 @@ const CartPage = ({ cart, setCart }) => {
       message += `\nCatatan: ${notes}`;
     }
 
-    const whatsappUrl = `https://wa.me/6281372373657?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/62812345678?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
